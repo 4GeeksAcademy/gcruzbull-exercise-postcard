@@ -1,0 +1,67 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 480px;
+	height: 330px;
+	margin: auto;
+	font-family: "Itim";
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 90%;
+	margin: 0px;
+}
+
+.postcard-body {
+	display: flex; /* para organizar a los hijos horizontalmente*/
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 20px;
+}
+
+/*input {
+	border: none;
+	border-bottom: grey;
+}*/
+
+input {
+	font-family: "Itim";
+	border: none;
+	border-bottom: 1px solid #888;
+	padding: 5px;
+	font-size: 14px;
+	outline: none;
+	background: transparent;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: lightgrey;
+	padding: 8px;
+}
+
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
